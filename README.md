@@ -66,7 +66,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/votre-pseudo-github/votre-pseudo-github/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/boughbough/boughbough/output/snake.svg" alt="Snake animation" />
 
 <p align="center">
   <b>Auteurs : Mohamed Boughmadi & Mohamet Thiam (Projet SI 2025-2026)</b>
