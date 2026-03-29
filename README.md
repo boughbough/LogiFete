@@ -1,5 +1,5 @@
 Hébergé:
-https://logifete.alwaysdata.net/index.php
+https://logifete.alwaysdata.net
 
 Se connecter avec:
 admin@logifete.com
