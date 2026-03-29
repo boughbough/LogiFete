@@ -30,26 +30,26 @@
 
 ###
 
-## [cite_start]📝 Présentation du Projet [cite: 1, 2]
+## 📝 Présentation du Projet
 
-[cite_start]**LogiFête PGI** est un Progiciel de Gestion Intégré full-web dédié à la location de matériel événementiel (Son, Lumière, Vidéo)[cite: 2, 21]. 
+**LogiFête PGI** est une Solution de Gestion Intégrée (ERP) full-web dédiée aux professionnels de l'événementiel pour la location de matériel (Son, Lumière, Vidéo, Structure).
 
-* [cite_start]**Problématique** : Digitaliser la gestion manuelle pour éviter les erreurs de stock et les oublis de facturation[cite: 22].
-* [cite_start]**Objectifs** : Centralisation des données, suivi par QR Codes, et signature électronique sur tablette[cite: 25, 26, 28].
-* **Modules Clés** : 
-    * [cite_start]**Commercial** : Devis, commandes et facturation PDF[cite: 117, 121].
-    * [cite_start]**Logistique** : Gestion des kits et état des lieux numérique[cite: 122, 125].
-    * [cite_start]**Technique** : Suivi des pannes et calcul automatique du ROI (Rentabilité)[cite: 129, 130, 153].
-    * [cite_start]**Admin** : Contrôle d'accès RBAC et logs d'audit[cite: 131, 133].
+* **Problématique** : Centraliser la gestion initialement faite sur tableurs pour éviter les erreurs de stock et les pertes financières.
+* **Objectifs** : Optimisation logistique, fiabilisation de la facturation et digitalisation des processus.
+* **Fonctionnalités Clés** : 
+    * **Gestion Commerciale** : Devis, commandes et facturation automatique.
+    * **Logistique & Stock** : Suivi par QR Codes et signature électronique sur tablette.
+    * **Maintenance** : Suivi des pannes et calcul automatique du ROI par produit.
+    * **Sécurité** : Gestion des rôles (RBAC), hachage des mots de passe et logs d'audit.
 
 ###
 
-## [cite_start]🚀 Installation Rapide [cite: 336]
+## 🚀 Installation & Déploiement
 
-1.  [cite_start]**Base de données** : Importer `logifete_ultimate_demo.sql`[cite: 361].
-2.  [cite_start]**Config** : Renseigner les accès SQL dans `db.php`[cite: 366, 367].
-3.  [cite_start]**Serveur** : Déployer sur une stack LAMP (PHP 8.2 minimum)[cite: 335, 344].
-4.  [cite_start]**Login** : Utiliser `admin@logifete.com` / `charlie123`[cite: 387, 388].
+1.  **Base de données** : Créer une base `logifete` et importer le fichier `logifete_ultimate_demo.sql`.
+2.  **Configuration** : Renseigner vos accès (host, db, user, pass) dans le fichier `db.php`.
+3.  **Serveur** : Déployer sur un serveur Linux avec une stack LAMP (PHP 8.2 minimum).
+4.  **Connexion** : Accéder à `login.php` avec les identifiants administrateur.
 
 ###
 
@@ -69,5 +69,5 @@
 <img src="https://raw.githubusercontent.com/votre-pseudo-github/votre-pseudo-github/output/snake.svg" alt="Snake animation" />
 
 <p align="center">
-  [cite_start]<b>Développé par Mohamed Boughmadi et Mohamet Thiam</b> [cite: 4]
+  <b>Auteurs : Mohamed Boughmadi & Mohamet Thiam (Projet SI 2025-2026)</b>
 </p>
