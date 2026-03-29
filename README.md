@@ -1,5 +1,5 @@
 Hébergé:
-https://logifete.xo.je
+https://logifete.alwaysdata.net/index.php
 
 Se connecter avec:
 admin@logifete.com
