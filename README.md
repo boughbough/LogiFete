@@ -37,7 +37,7 @@
 1.  **Base de données** : Créer une base `logifete` et importer le fichier SQL fourni.
 2.  **Configuration** : Modifier les accès `$host`, `$db`, `$user` et `$pass` dans le fichier `db.php`.
 3.  **Serveur** : Déployer sur un serveur Linux (Debian/Ubuntu) avec PHP 8.2 minimum.
-4.  **Connexion** : Utiliser le compte admin par défaut (admin@logifete.com / charlie123).
+4.  **Connexion** : Utiliser le compte admin par défaut (boss@logifete.com / logifete2025).
 
 ###
 
