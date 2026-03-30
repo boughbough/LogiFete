@@ -1,9 +1,9 @@
-# 🛠️ LogiFête PGI : Solution de Gestion Intégrée
+# 🟦 LogiFête PGI : Solution de Gestion Intégrée
 
 ###
 
 <div align="left">
-  <h2>💻 Stack Technique</h2>
+  <h2>🔹 Stack Technique</h2>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
@@ -18,7 +18,7 @@
 
 ###
 
-## 📝 Présentation du Projet
+## 🔹 Présentation du Projet
 
 **LogiFête PGI** est un Progiciel de Gestion Intégré (PGI/ERP) Web. Il a été conçu pour centraliser l'information dans une base de données unique pour les clients, le stock et les commandes.
 
@@ -32,7 +32,7 @@
 
 ###
 
-## 🚀 Installation & Déploiement
+## 🔹 Installation & Déploiement
 
 1.  **Base de données** : Créer une base `logifete` et importer le fichier SQL fourni.
 2.  **Configuration** : Modifier les accès `$host`, `$db`, `$user` et `$pass` dans le fichier `db.php`.
