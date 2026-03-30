@@ -1,6 +1,6 @@
 # 🛠️ LogiFête PGI : Solution de Gestion Intégrée
 
-<img align="right" height="160" src="https://media.tenor.com/On79Znefgn8AAAAi/loading-computer.gif" />
+<img align="right" height="160" src="https://media1.tenor.com/m/yOcJD0AiyHMAAAAd/todd-alquist-breaking-bad.gif" />
 
 ###
 
