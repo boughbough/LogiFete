@@ -1,7 +1,5 @@
 # 🛠️ LogiFête PGI : Solution de Gestion Intégrée
 
-<img align="right" height="160" src="https://media1.tenor.com/m/yOcJD0AiyHMAAAAd/todd-alquist-breaking-bad.gif" />
-
 ###
 
 <div align="left">
