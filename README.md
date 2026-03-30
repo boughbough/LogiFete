@@ -1,6 +1,6 @@
 ###
 
-<img align="right" height="160" src="https://tenor.com/rpyUF5Jv4Vj.gif" />
+<img align="right" height="160" src="https://media.tenor.com/On79Znefgn8AAAAi/loading-computer.gif" />
 
 ###
 ###
