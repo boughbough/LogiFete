@@ -1,12 +1,11 @@
-###
+# 🛠️ LogiFête PGI : Solution de Gestion Intégrée
 
 <img align="right" height="160" src="https://media.tenor.com/On79Znefgn8AAAAi/loading-computer.gif" />
 
 ###
-###
 
 <div align="left">
-  <h2>🛠️ LogiFête PGI : Stack Technique</h2>
+  <h2>💻 Stack Technique</h2>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
@@ -24,24 +23,24 @@
 
 ## 📝 Présentation du Projet
 
-**LogiFête PGI** est une Solution de Gestion Intégrée (ERP) full-web dédiée aux professionnels de l'événementiel pour la location de matériel (Son, Lumière, Vidéo, Structure).
+[cite_start]**LogiFête PGI** est un Progiciel de Gestion Intégré (PGI/ERP) Web[cite: 2, 24]. [cite_start]Il a été conçu pour centraliser l'information dans une base de données unique pour les clients, le stock et les commandes[cite: 25].
 
-* **Problématique** : Centraliser la gestion initialement faite sur tableurs pour éviter les erreurs de stock et les pertes financières.
-* **Objectifs** : Optimisation logistique, fiabilisation de la facturation et digitalisation des processus.
+* [cite_start]**Problématique** : L'entreprise utilisait des tableurs dispersés, causant des erreurs de stock et des oublis de facturation[cite: 22].
+* [cite_start]**Objectifs** : Optimiser la logistique via QR Codes, fiabiliser la facturation et digitaliser les processus via signature électronique[cite: 26, 27, 28].
 * **Fonctionnalités Clés** : 
-    * **Gestion Commerciale** : Devis, commandes et facturation automatique.
-    * **Logistique & Stock** : Suivi par QR Codes et signature électronique sur tablette.
-    * **Maintenance** : Suivi des pannes et calcul automatique du ROI par produit.
-    * **Sécurité** : Gestion des rôles (RBAC), hachage des mots de passe et logs d'audit.
+    * [cite_start]**Gestion Commerciale** : Devis, commandes et factures PDF[cite: 31, 121].
+    * [cite_start]**Logistique & Stock** : Inventaire en temps réel et gestion des kits[cite: 123, 124].
+    * [cite_start]**Maintenance** : Suivi des pannes et calcul automatisé du ROI par produit[cite: 129, 130].
+    * [cite_start]**Sécurité** : Gestion des rôles (RBAC), hachage des mots de passe et requêtes préparées PDO[cite: 42, 161, 169].
 
 ###
 
 ## 🚀 Installation & Déploiement
 
-1.  **Base de données** : Créer une base `logifete` et importer le fichier `logifete_ultimate_demo.sql`.
-2.  **Configuration** : Renseigner vos accès (host, db, user, pass) dans le fichier `db.php`.
-3.  **Serveur** : Déployer sur un serveur Linux avec une stack LAMP (PHP 8.2 minimum).
-4.  **Connexion** : Accéder à `login.php` avec les identifiants administrateur.
+1.  [cite_start]**Base de données** : Créer une base `logifete` et importer le fichier SQL fourni[cite: 360, 361].
+2.  [cite_start]**Configuration** : Modifier les accès `$host`, `$db`, `$user` et `$pass` dans le fichier `db.php`[cite: 366, 367].
+3.  [cite_start]**Serveur** : Déployer sur un serveur Linux (Debian/Ubuntu) avec PHP 8.2 minimum[cite: 341, 344].
+4.  [cite_start]**Connexion** : Utiliser le compte admin par défaut (admin@logifete.com / charlie123)[cite: 387, 388].
 
 ###
 
@@ -58,8 +57,8 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/boughbough/boughbough/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/boughbough/boughbough/output/github-snake.svg" alt="Snake animation" />
 
 <p align="center">
-  <b>Auteurs : Mohamed Boughmadi & Mohamet Thiam (Projet SI 2025-2026)</b>
+  [cite_start]<b>Auteurs : Mohamed Boughmadi & Mohamet Thiam (Projet SI 2025-2026) [cite: 4, 5]</b>
 </p>
