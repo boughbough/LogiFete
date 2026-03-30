@@ -1,4 +1,8 @@
-<div class="tenor-gif-embed" data-postid="14476549488310929523" data-share-method="host" data-aspect-ratio="0.742972" data-width="100%"><a href="https://tenor.com/view/todd-alquist-breaking-bad-gif-14476549488310929523">Todd Alquist Breaking Bad GIF</a>from <a href="https://tenor.com/search/todd+alquist-gifs">Todd Alquist GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+###
+
+<img align="right" height="160" src="https://tenor.com/rpyUF5Jv4Vj.gif" />
+
+###
 ###
 
 <div align="left">
