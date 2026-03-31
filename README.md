@@ -39,7 +39,10 @@
 1.  **Base de données** : Créer une base `logifete` et importer le fichier SQL fourni.
 2.  **Configuration** : Modifier les accès `$host`, `$db`, `$user` et `$pass` dans le fichier `db.php`.
 3.  **Serveur** : Déployer sur un serveur Linux (Debian/Ubuntu) avec PHP 8.2 minimum.
-4.  **Connexion** : Utiliser le compte admin par défaut (boss@logifete.com / logifete2025).
+4.  **Connexion & Tests** : Utilisez les comptes par défaut suivants pour tester les différents accès et tableaux de bord :
+    *  **Administrateur** : `boss@logifete.com` / `logifete2025`
+    *  **Commercial** : `shelton@logifete.com` / `com123`
+    *  **Technicien** : `benjamin@logifete.com` / `tech123`
 
 ###
 
@@ -50,7 +53,7 @@
 </p>
 
 <div align="center">
-  <h3>💬Contact : </h3>
+  <h3>💬 Contact : </h3>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohamedboughmadi93300@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /></a>
-  <a href="https://linkedin.com/in/votre-profil" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
+  <a href="https://linkedin.com/in/mohamed-boughmadi" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
 </div>
