@@ -235,7 +235,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         
         <?php if(!empty($commande['note_interne'])): ?>
             <div style="background:#fffbe6; border:1px solid #f1c40f; padding:10px; margin-top:10px; border-radius:4px; color:#7f8c8d;">
-                <strong>📝 Note Interne :</strong> <?= nl2br(htmlspecialchars($commande['note_interne'])) ?>
+                <strong>📝 Note Interne :</strong> <?= nl2br(htmlspecialchars($commande['note_interne'] ?? '')) ?>
             </div>
         <?php endif; ?>
     </div>
@@ -294,7 +294,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <input type="number" name="remise" value="<?= $remise_percent ?>" min="0" max="50" style="width:60px; margin:0;">
                         <?php if($remise_auto_msg) echo "<small style='color:#27ae60; font-weight:bold;'>$remise_auto_msg</small>"; ?>
                     </div>
-                    <textarea name="note" placeholder="Note interne" rows="2" style="margin-bottom:10px; width:100%;"><?= htmlspecialchars($commande['note_interne']) ?></textarea>
+                    <textarea name="note" placeholder="Note interne" rows="2" style="margin-bottom:10px; width:100%;"><?= htmlspecialchars($commande['note_interne'] ?? '') ?></textarea>
                     <button type="submit" name="update_options" class="btn" style="background:#f39c12; font-size:0.9em;">Mettre à jour</button>
                 </form>
             </div>

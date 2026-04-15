@@ -35,20 +35,51 @@ if (isset($_POST['add_user'])) {
 
 // SUPPRIMER UN UTILISATEUR
 if (isset($_GET['del'])) {
-    $id_del = $_GET['del'];
+    $id_del = (int)$_GET['del'];
     if ($id_del != $_SESSION['user_id']) { 
-        // Récupérer le nom avant suppression pour le log
-        $nom_del = $pdo->query("SELECT email FROM utilisateur WHERE id_user = $id_del")->fetchColumn();
-        
-        $pdo->prepare("DELETE FROM utilisateur WHERE id_user = ?")->execute([$id_del]);
-        
-        // LOG
-        ajouterLog($pdo, "SUPPRESSION USER", "Suppression du compte ID $id_del ($nom_del)");
-        
-        $msg = "🗑️ Utilisateur supprimé.";
+        try {
+            // Récupérer le nom avant suppression pour le log
+            $stmt_nom = $pdo->prepare("SELECT email FROM utilisateur WHERE id_user = ?");
+            $stmt_nom->execute([$id_del]);
+            $nom_del = $stmt_nom->fetchColumn();
+            
+            // Vérifier si l'utilisateur a des commandes associées
+            $stmt_check = $pdo->prepare("SELECT COUNT(*) FROM commande WHERE id_commercial = ?");
+            $stmt_check->execute([$id_del]);
+            $nb_commandes = $stmt_check->fetchColumn();
+            
+            if ($nb_commandes > 0) {
+                // L'utilisateur a des commandes, on ne peut pas le supprimer directement
+                $msg = "⚠️ Impossible de supprimer cet utilisateur : il a $nb_commandes commande(s) associée(s). Vous devez d'abord réassigner ses commandes à un autre commercial.";
+            } else {
+                // Aucune commande, on peut supprimer en toute sécurité
+                $stmt_del = $pdo->prepare("DELETE FROM utilisateur WHERE id_user = ?");
+                $stmt_del->execute([$id_del]);
+                
+                // LOG (avec gestion d'erreur)
+                try {
+                    if (function_exists('ajouterLog')) {
+                        ajouterLog($pdo, "SUPPRESSION USER", "Suppression du compte ID $id_del ($nom_del)");
+                    }
+                } catch (Exception $e) {
+                    // Ignore les erreurs de log pour ne pas bloquer la suppression
+                }
+                
+                // Redirection pour éviter re-soumission
+                header("Location: admin_users.php?success=deleted");
+                exit;
+            }
+        } catch (Exception $e) {
+            $msg = "❌ Erreur lors de la suppression : " . $e->getMessage();
+        }
     } else {
         $msg = "⚠️ Impossible de supprimer votre propre compte !";
     }
+}
+
+// Message de succès après redirection
+if (isset($_GET['success']) && $_GET['success'] == 'deleted') {
+    $msg = "🗑️ Utilisateur supprimé avec succès.";
 }
 
 $users = $pdo->query("SELECT * FROM utilisateur ORDER BY role, nom")->fetchAll();
