@@ -1,6 +1,6 @@
 # 🟦 LogiFête PGI : Solution de Gestion Intégrée
 
-## https://logifete.alwaysdata.net
+## https://logifete.free.nf
 
 ###
 
